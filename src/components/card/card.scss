@@ -1,0 +1,76 @@
+.row {
+  display: grid;
+  grid-template-columns: repeat(3, 405px);
+  gap: 32px;
+  padding-bottom: 30px;
+  .card {
+    &__img {
+      max-width: 405px;
+    }
+    &__body {
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+    }
+    h3 {
+      /* Label 01 */
+      font-family: Inter;
+      font-size: 14px;
+      font-weight: 500;
+      line-height: 20px;
+      letter-spacing: 0px;
+      text-align: left;
+      padding-top: 32px;
+    }
+    h2 {
+      /* Heading H3 */
+      color: rgb(35, 37, 54);
+      font-family: Sen;
+      font-size: 28px;
+      font-weight: 700;
+      line-height: 40px;
+      letter-spacing: -1px;
+      text-align: left;
+      max-width: 405px;
+    }
+    p {
+      /* Body 1 */
+      color: rgb(35, 37, 54);
+      font-family: Inter;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 28px;
+      letter-spacing: 0px;
+      text-align: left;
+      max-width: 405px;
+    }
+  }
+}
+
+#card {
+  border-bottom: 1px solid #000;
+  h5 {
+    /* Heading H2 */
+    color: rgb(0, 0, 0);
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: -2px;
+    padding: 64px 0;
+  }
+  button {
+    color: #000;
+    font-size: 18px;
+    padding: 18px 48px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0px;
+    text-align: left;
+    background: rgb(255, 208, 80);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    margin: 10px auto 40px auto;
+  }
+}

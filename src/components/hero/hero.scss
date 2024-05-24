@@ -1,0 +1,73 @@
+#hero {
+  background-image: url(../../assets//hero.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 100px;
+}
+
+.hero {
+  padding: 128px 0 192px 0;
+  h3 {
+    /* [object Object] */
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 900;
+    line-height: 20px;
+    letter-spacing: 3px;
+    text-align: left;
+    text-transform: uppercase;
+  }
+  h2 {
+    /* Display */
+    color: rgb(255, 255, 255);
+    font-family: Sen;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 64px;
+    letter-spacing: -2px;
+    text-align: left;
+    max-width: 803px;
+    padding: 24px 0;
+  }
+  h4 {
+    /* Body 1 */
+    font-family: Inter;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0px;
+    text-align: left;
+    span {
+      color: rgb(255, 208, 80);
+    }
+  }
+  p {
+    /* Body 1 */
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0px;
+    text-align: left;
+    max-width: 594px;
+    padding: 16px 0 48px 0;
+  }
+  button {
+    color: rgb(35, 37, 54);
+    font-size: 18px;
+    padding: 18px 48px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0px;
+    text-align: left;
+    /* Yellow */
+    background: rgb(255, 208, 80);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+  }
+}

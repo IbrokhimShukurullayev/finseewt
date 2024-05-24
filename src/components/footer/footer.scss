@@ -1,0 +1,22 @@
+#footer {
+  background: rgb(35, 37, 54);
+  .footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 0;
+    &__right {
+      h2 {
+        /* Body 1 */
+        color: rgb(255, 255, 255);
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 28px;
+        letter-spacing: 0px;
+        text-align: left;
+        /* Light */
+        opacity: 0.7;
+      }
+    }
+  }
+}
