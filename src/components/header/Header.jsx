@@ -1,6 +1,7 @@
 import React from 'react'
 import "./header.scss"
 import Image from 'next/image'
+import Link from 'next/link'
 
 import logo from "../../assets/Logo.png"
 
@@ -9,17 +10,15 @@ const Header = () => {
     <header id="header">
         <div className="container nav">
             <div className="nav__logo">
-            <a href='#'>
+            <Link href={"/"}>
               <Image src={logo} alt="" />
-            </a>
+            </Link>
           </div>
             <ul className="nav__list">
-            <li className="nav__item"><a href='#' className="nav__link">HOME</a></li>
-            <li className="nav__item"><a href='#' className="nav__link">BAGS</a></li>
-            <li className="nav__item"><a href='#' className="nav__link">SNEAKERS</a></li>
-            <li className="nav__item"><a href='#' className="nav__link">BELT </a></li>
-            <li className="nav__item"><a href='#' className="nav__link">CONTACT </a></li>
-            <li className="nav__item"><button className="nav__button">Login </button></li>
+            <li className="nav__item"><Link href={"/"} className="nav__link">Home</Link></li>
+            <li className="nav__item"><Link href={"/blog"} className="nav__link">Blog</Link></li>
+            <li className="nav__item"><Link href={"/about"} className="nav__link">About Us</Link></li>
+            <li className="nav__item"><a href='#' className="nav__link">Register </a></li>
           </ul>
         </div>
     </header>

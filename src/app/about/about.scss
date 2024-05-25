@@ -1,0 +1,134 @@
+#about {
+  padding: 110px 0 0 0;
+}
+
+.about {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 83px 0 106px 0;
+  background: rgb(244, 240, 248);
+  gap: 54px;
+  &__left,
+  &__right {
+    h3 {
+      /* Cap 1 */
+      color: rgb(35, 37, 54);
+      font-family: Inter;
+      font-size: 16px;
+      font-weight: 600;
+      line-height: 20px;
+      letter-spacing: 3px;
+      text-align: left;
+      text-transform: uppercase;
+    }
+    h2 {
+      /* Heading H3 */
+      color: rgb(35, 37, 54);
+      font-family: Sen;
+      font-size: 28px;
+      font-weight: 700;
+      line-height: 40px;
+      letter-spacing: -1px;
+      text-align: left;
+      max-width: 481px;
+      padding: 24px 0 16px 0;
+    }
+    p {
+      /* Body 1 */
+      color: rgb(109, 110, 118);
+      font-family: Inter;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 28px;
+      letter-spacing: 0px;
+      text-align: left;
+      max-width: 516px;
+    }
+  }
+}
+
+.team {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 100px 0;
+  &__left {
+    h3 {
+      /* Heading H2 */
+      color: rgb(35, 37, 54);
+      font-family: Sen;
+      font-size: 36px;
+      font-weight: 700;
+      line-height: 48px;
+      letter-spacing: -2px;
+      text-align: left;
+    }
+    h2 {
+      /* Heading H4 */
+      color: rgb(35, 37, 54);
+      font-family: Sen;
+      font-size: 24px;
+      font-weight: 700;
+      line-height: 32px;
+      letter-spacing: 0px;
+      text-align: left;
+      max-width: 519px;
+      padding: 16px 0;
+    }
+    p {
+      /* Body 1 */
+      color: rgb(35, 37, 54);
+      font-family: Inter;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 28px;
+      letter-spacing: 0px;
+      text-align: left;
+      max-width: 519px;
+    }
+  }
+}
+
+.teams {
+  display: flex;
+  align-items: center;
+  //   justify-content: space-between;
+  gap: 100px;
+  padding: 0 0 110px 0;
+  &__left {
+    h3 {
+      /* Heading H2 */
+      color: rgb(35, 37, 54);
+      font-family: Sen;
+      font-size: 36px;
+      font-weight: 700;
+      line-height: 48px;
+      letter-spacing: -2px;
+      text-align: left;
+    }
+    h2 {
+      /* Heading H4 */
+      color: rgb(35, 37, 54);
+      font-family: Sen;
+      font-size: 24px;
+      font-weight: 700;
+      line-height: 32px;
+      letter-spacing: 0px;
+      text-align: left;
+      max-width: 519px;
+      padding: 16px 0;
+    }
+    p {
+      /* Body 1 */
+      color: rgb(35, 37, 54);
+      font-family: Inter;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 28px;
+      letter-spacing: 0px;
+      text-align: left;
+      max-width: 519px;
+    }
+  }
+}
